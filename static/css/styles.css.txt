@@ -1,0 +1,148 @@
+/* General styles for the entire application */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    padding: 20px;
+}
+
+/* Styles for buttons */
+.button {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #ccc;
+}
+
+/* Styles for the file upload form */
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    margin-top: 10px;
+}
+
+label {
+    font-size: 18px;
+}
+
+input[type="file"], select {
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+}
+
+input[type="file"]:hover, select:hover {
+    border-color: #aaa;
+}
+
+button[type="submit"] {
+    font-size: 18px;
+    padding: 8px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Styles for links */
+a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    margin-top: 10px;
+    display: block;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #555;
+}
+
+/* Styles for the "View Files" section */
+.list-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+/* Styles for the file list */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s;
+}
+
+li:hover {
+    background-color: #eee;
+}
+
+/* Styles for file links and buttons */
+.file-link, .button-link {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.file-link:hover, .button-link:hover {
+    color: #555;
+}
+
+.file-actions {
+    display: flex;
+    align-items: center;
+}
+
+/* Styles for delete button */
+.delete-button {
+    background-color: #ff5959;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.delete-button:hover {
+    background-color: #d14e4e;
+}
